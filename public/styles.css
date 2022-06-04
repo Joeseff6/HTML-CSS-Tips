@@ -42,3 +42,17 @@ body {
 }
 
 /* ----------- */
+/* Nav Styling */
+
+nav {
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  border-right: solid black 2px;
+  min-width: var(--nav-width);
+  height: 100%;
+  background-color: white;
+}
+
+/* ----------- */
