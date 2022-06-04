@@ -1,0 +1,20 @@
+{
+  "name": "html-css-tips",
+  "version": "1.0.0",
+  "description": "An HTML and CSS document providing tips and tricks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joeseff6/HTML-CSS-Tips.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joeseff6/HTML-CSS-Tips/issues"
+  },
+  "homepage": "https://github.com/Joeseff6/HTML-CSS-Tips#readme"
+}
