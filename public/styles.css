@@ -6,6 +6,7 @@
   box-sizing: border-box;
 }
 
+/* ----------- */
 /* Variables ------------- */
 
 :root {
@@ -19,3 +20,17 @@
 }
 
 /* ----------- */
+/* General Styling ------------- */
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  word-spacing: 0.15rem;
+  line-height: calc(var(--normal-fs) * 1.25);
+}
