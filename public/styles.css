@@ -54,6 +54,10 @@ p {
   letter-spacing: 1.25px;
 }
 
+strong {
+  font-size: var(--normal-fs);
+}
+
 .italic {
   font-style: italic;
 }
