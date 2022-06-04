@@ -126,4 +126,10 @@ main {
   border-left: hsl(0, 0%, 59%) 2px solid;
 }
 
+.main-section:hover,
+.main-content-background:hover {
+  box-shadow: 3px 3px hsl(206, 56%, 58%);
+  background-color: hsl(206, 50%, 95%);
+}
+
 /* ----------- */
