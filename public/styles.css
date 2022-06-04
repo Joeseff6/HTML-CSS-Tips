@@ -114,4 +114,16 @@ main {
   background-color: hsl(0, 0%, 93%);
 }
 
+.main-content-background {
+  background-color: white;
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 2.5rem;
+  box-shadow: 3px 3px hsl(0, 0%, 44%);
+  width: calc(100% - 100px);
+  border-radius: 10px 10px 0 0;
+  border-top: hsl(0, 0%, 59%) 2px solid;
+  border-left: hsl(0, 0%, 59%) 2px solid;
+}
+
 /* ----------- */
