@@ -5,3 +5,17 @@
 *::after {
   box-sizing: border-box;
 }
+
+/* Variables ------------- */
+
+:root {
+  --nav-width: 35rem;
+  --visited-link-color: black;
+  --smaller-fs: 1.8rem;
+  --normal-fs: 2rem;
+  --large-fs: 2.2rem;
+  --larger-fs: 2.6rem;
+  --xl-fs: 3rem;
+}
+
+/* ----------- */
