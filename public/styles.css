@@ -34,3 +34,11 @@ body {
   word-spacing: 0.15rem;
   line-height: calc(var(--normal-fs) * 1.25);
 }
+
+/* Layout Styling */
+
+.flex {
+  display: flex;
+}
+
+/* ----------- */
