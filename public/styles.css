@@ -114,6 +114,19 @@ main {
   background-color: hsl(0, 0%, 93%);
 }
 
+main a {
+  text-decoration: none;
+  color: black;
+}
+
+main a:visited {
+  color: var(--visited-link-color);
+}
+
+main a:hover {
+  background-color: hsl(30, 86%, 67%);
+}
+
 .main-content-background, .main-section {
   background-color: white;
   max-width: 900px;
