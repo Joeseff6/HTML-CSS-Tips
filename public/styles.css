@@ -132,4 +132,20 @@ main {
   background-color: hsl(206, 50%, 95%);
 }
 
+.focused-background {
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 5px;
+  margin: 1.5rem;
+  padding: 3rem;
+  display: block;
+  border: 2px solid hsl(0, 0%, 71%);
+}
+
+code {
+  text-align: center;
+  color: hsl(17, 100%, 50%);
+  font-weight: bold;
+  font-size: var(--smaller-fs);
+}
+
 /* ----------- */
