@@ -188,3 +188,40 @@ ul, ol {
 }
 
 /* ----------- */
+/* Media Queries */
+
+@media screen and (max-width: 975px) {
+  html {
+    scroll-padding-top: 23rem;
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: max-content;
+    border-right: unset;
+    border-bottom: solid 2px black;
+  }
+
+  main {
+    width: 100%;
+    margin: 21rem 0 0 0;
+  }
+
+  .link-container {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 14rem;
+    text-align: center;
+  }
+
+  .link-container > * {
+    padding: 1rem;
+  }
+
+  .main-section,
+  .main-content-background {
+    width: calc(100% - 10px);
+  }
+}
