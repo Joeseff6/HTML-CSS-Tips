@@ -60,6 +60,13 @@ p {
   display: flex;
 }
 
+p::before {
+  content: "";
+  width: 0;
+  height: 0;
+  margin-left: 2rem;
+}
+
 /* ----------- */
 /* Nav Styling */
 
