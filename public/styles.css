@@ -55,6 +55,36 @@ nav {
   background-color: white;
 }
 
+.link-container {
+  overflow: hidden;
+}
+
+.link-container > * {
+  padding: 2rem;
+  display: block;
+  font-size: var(--normal-fs);
+  text-decoration: none;
+  color: black;
+}
+
+nav > header,
+.link-container > :not(:last-child) {
+  border-bottom: black solid 2px;
+}
+
+nav > header {
+  text-align: center;
+}
+
+nav a:visited {
+  color: black;
+}
+
+nav a:hover {
+  background-color: hsl(206, 56%, 58%);
+  color: white;
+}
+
 /* ----------- */
 /* Main Styling */
 
