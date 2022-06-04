@@ -56,3 +56,13 @@ nav {
 }
 
 /* ----------- */
+/* Main Styling */
+
+main {
+  margin-left: var(--nav-width);
+  flex-basis: 100%;
+  padding: 0 1.5rem;
+  background-color: hsl(0, 0%, 93%);
+}
+
+/* ----------- */
