@@ -148,4 +148,9 @@ code {
   font-size: var(--smaller-fs);
 }
 
+ul, ol {
+  font-size: var(--smaller-fs);
+  letter-spacing: 1.15px;
+}
+
 /* ----------- */
