@@ -126,6 +126,11 @@ main {
   background-color: hsl(0, 0%, 93%);
 }
 
+article {
+  max-width: 125ch;
+  margin: auto;
+}
+
 main a {
   text-decoration: none;
   color: black;
