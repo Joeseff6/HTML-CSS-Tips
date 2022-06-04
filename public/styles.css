@@ -54,6 +54,11 @@ p {
   letter-spacing: 1.25px;
 }
 
+.italic {
+  font-style: italic;
+}
+
+
 /* Layout Styling */
 
 .flex {
