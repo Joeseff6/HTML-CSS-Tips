@@ -225,3 +225,18 @@ ul, ol {
     width: calc(100% - 10px);
   }
 }
+
+@media screen and (max-height: 650px) {
+  .link-container {
+    height: 8rem;
+  }
+
+  html {
+    scroll-padding-top: 16rem;
+  }
+
+  main {
+    width: 100%;
+    margin: 15rem 0 0 0;
+  }
+}
