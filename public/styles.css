@@ -35,6 +35,20 @@ body {
   line-height: calc(var(--normal-fs) * 1.25);
 }
 
+header {
+  font-size: var(--large-fs);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: hsl(209deg 100% 32%);
+  margin: 2rem 0;
+}
+
 /* Layout Styling */
 
 .flex {
