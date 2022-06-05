@@ -198,7 +198,8 @@ ul, ol {
   nav {
     position: fixed;
     top: 0;
-    width: 100%;
+    left: 0;
+    right: 0;
     height: max-content;
     border-right: unset;
     border-bottom: solid 2px black;
@@ -223,20 +224,5 @@ ul, ol {
   .main-section,
   .main-content-background {
     width: calc(100% - 10px);
-  }
-}
-
-@media screen and (max-height: 650px) {
-  .link-container {
-    height: 8rem;
-  }
-
-  html {
-    scroll-padding-top: 16rem;
-  }
-
-  main {
-    width: 100%;
-    margin: 15rem 0 0 0;
   }
 }
